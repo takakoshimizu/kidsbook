@@ -1,0 +1,36 @@
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt
+}
+
+body {
+  font-family: serif;
+}
+
+p { 
+  display: block;
+  font-size: 1.14286em;
+  line-height: 1.2;
+  text-align: left;
+  text-indent: 1.5em;
+  margin: 0
+}
+
+p:first-child + strong {
+  font-size: 120%;
+}
+
+h1 {
+  position: relative;
+  top: 240pt;
+  font-size: 28pt;
+  text-align: center;
+}
+
+.level1 > h1 + .level2 > h2, h1 + h2 {
+  font-size: 128pt; 
+  line-height: 120%;
+  margin-bottom: 36pt;
+  margin-top: 70pt;
+  text-align: center;
+}
