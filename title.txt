@@ -1,0 +1,13 @@
+---
+title:
+- type: main
+  text: Work in Progress
+- type: subtitle
+  text: A book for my children
+creator:
+- role: author
+  text: Erich Dalton
+identifier:
+publisher: Me
+rights: © 2018 Erich Dalton
+---
